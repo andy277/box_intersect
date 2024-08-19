@@ -1,1 +1,0 @@
-## Function to find if 2 rectangles intersect
