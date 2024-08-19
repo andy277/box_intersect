@@ -1,6 +1,7 @@
 import unittest
 from typing import Tuple
 
+
 class TestIntersect(unittest.TestCase):
     def intersection(self, rect1: Tuple[float, ...], rect2: Tuple[float, ...]) -> float:
         self.assertIsNotNone(rect1)
