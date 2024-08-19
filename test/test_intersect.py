@@ -2,13 +2,6 @@ import unittest
 from typing import Tuple
 
 class TestIntersect(unittest.TestCase):
-    # def convert_box(self,  rect: Tuple[float, ...]) -> Tuple[float, ...]:
-    #     x_max = rect[0] + rect[2] / 2
-    #     y_max = rect[1] + rect[3] / 2
-    #     x_min = rect[0] - rect[2] / 2
-    #     y_min = rect[1] - rect[3] / 2
-    #     return x_min, y_min, x_max, y_max
-
     def intersection(self, rect1: Tuple[float, ...], rect2: Tuple[float, ...]) -> float:
         self.assertIsNotNone(rect1)
         self.assertIsNotNone(rect2)
@@ -43,9 +36,3 @@ class TestIntersect(unittest.TestCase):
 
 
 t = TestIntersect()
-
-# t.test_main()
-
-# print(t.intersection((0.48, 0.63, 0.69, 0.71), (0.74, 0.52, 0.31, 0.93)))
-
-# (0.74, 0.52, 0.31, 0.93))
